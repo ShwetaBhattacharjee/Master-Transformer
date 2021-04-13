@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="About this app"
+        android:id="@+id/show_about">
+    </item>
+    <item
+        android:title="Developers Info"
+        android:id="@+id/show_developers">
+    </item>
+</menu>

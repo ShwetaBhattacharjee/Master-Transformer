@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    tools:context=".Calculator"
+    android:background="@drawable/image"
+
+    
+    >
+
+    <Button
+        android:padding="5dp"
+        android:id="@+id/gpa_button"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:drawableTop="@drawable/gpaicon"
+        android:background="#4D97E7"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:text="GPA Calculator"
+
+        />
+
+    <Button
+
+        android:id="@+id/standard_button"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="30dp"
+        android:drawableTop="@drawable/scientificcalculator"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:text="Standard Calculator"
+        android:background="#CAE6F0"
+
+        />
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ScienceFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:weightSum="4"
+        android:background="#000000"
+        >
+        <Button
+            android:id="@+id/pressure_button"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#FF9800"
+            android:drawableTop="@drawable/pressureic"
+            android:textAllCaps="false"
+            android:text="Pressure"
+            android:textColor="#ffffff"
+            />
+        <Button
+            android:padding="3dp"
+            android:id="@+id/concentration_button"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#A0674B"
+            android:drawableTop="@drawable/concic"
+            android:textSize="13dp"
+            android:textAllCaps="false"
+            android:text="Concentration"
+            android:textColor="#ffffff"
+            />
+        <Button
+            android:padding="3dp"
+            android:id="@+id/viscosity_button"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#A0674B"
+            android:drawableTop="@drawable/viscisityic"
+            android:textAllCaps="false"
+            android:text="Viscosity"
+            android:textColor="#ffffff"
+            />
+        <Button
+            android:padding="3dp"
+            android:id="@+id/torque_button"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#A0674B"
+            android:drawableTop="@drawable/torqueic"
+            android:textAllCaps="false"
+            android:text="Torque"
+            android:textColor="#ffffff"
+            />
+
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+   android:gravity="center"
+    android:background="@drawable/translator_background5"
+    tools:context=".translator">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#E2B674"
+
+    >
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="190dp"
+        android:orientation="horizontal"
+        android:background="#E2B674"
+
+        >
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="190dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:background="#ffffff"
+                >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From:"
+                android:textStyle="bold"
+                android:textColor="#2550D1"
+               android:paddingLeft="10dp"
+                android:textSize="20dp"
+                android:background="#ffffff"
+                />
+                <Spinner
+                    android:layout_marginLeft="4dp"
+                    android:id="@+id/lanuage_select2"
+                    android:background="@drawable/shadow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:spinnerMode="dialog"
+                    >
+                </Spinner>
+
+            </LinearLayout>
+            <EditText
+                android:id="@+id/input_text"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="190dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:background="#ffffff"
+                >
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Translate to:"
+                    android:textStyle="bold"
+                    android:textColor="#2550D1"
+                    android:textSize="20dp"
+                    android:background="#ffffff"
+
+                    />
+                <Spinner
+                    android:layout_marginLeft="4dp"
+                    android:id="@+id/lanuage_select"
+                    android:background="@drawable/shadow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:spinnerMode="dialog"
+                    >
+                </Spinner>
+
+            </LinearLayout>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_margin="5dp"
+                >
+                <TextView
+                    android:id="@+id/output_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </ScrollView>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/traslate_bt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#9BCBD1"
+        android:layout_gravity="center"
+        android:text="Translate"
+        />
+</LinearLayout>
+</LinearLayout>

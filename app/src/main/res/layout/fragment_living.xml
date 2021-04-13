@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".LivingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:weightSum="4"
+        android:background="#000000"
+        >
+        <Button
+            android:id="@+id/currency_button"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#FF9800"
+            android:drawableTop="@drawable/currencyic"
+            android:textAllCaps="false"
+            android:text="Currency"
+            android:textColor="#ffffff"
+            />
+        <Button
+            android:padding="3dp"
+            android:id="@+id/temperature_button"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#A0674B"
+            android:drawableTop="@drawable/tempic"
+            android:textAllCaps="false"
+            android:text="Temperature"
+            android:textColor="#ffffff"
+            />
+        <Button
+            android:padding="3dp"
+            android:id="@+id/time_button"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#A0674B"
+            android:drawableTop="@drawable/timeic"
+            android:textAllCaps="false"
+            android:text="Time"
+            android:textColor="#ffffff"
+            />
+        <Button
+
+            android:id="@+id/speed_button"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#A0674B"
+            android:drawableTop="@drawable/speedic"
+            android:textAllCaps="false"
+            android:text="Speed"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+
+
+</FrameLayout>

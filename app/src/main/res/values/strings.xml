@@ -1,0 +1,345 @@
+<resources>
+    <string name="app_name">Master Transformer</string>
+    <string name="button_name1">CALCULATOR</string>
+    <string name="button_name2">TRANSLATOR</string>
+    <string name="button_name3">CONVERTER</string>
+    <string name="calculator_button_name1">CGPA CALCULATOR</string>
+    <string name="calculator_button_name2">SCIENTIFIC CALCULATOR</string>
+    <string name="credit">Credit:</string>
+    <string name="grade">Grade:</string>
+    <string-array name="grades">
+        <item>Select</item>
+        <item>A+</item>
+        <item>A</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>B-</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>D</item>
+        <item>F</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>Afrikaans</item>
+        <item>Albanian</item>
+        <item>Amharic</item>
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>Azerbaijan</item>
+        <item>Bengali</item>
+        <item>Basque</item>
+        <item>Bashkir</item>
+        <item>Belarusian</item>
+        <item>Bosnian</item>
+        <item>Bulgarian</item>
+        <item>Burmese</item>
+        <item>Catalan</item>
+        <item>Cebuano</item>
+        <item>Chinese</item>
+        <item>Croatian</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Dutch</item>
+        <item>English</item>
+        <item>Esperanto</item>
+        <item>Estonian</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>Galician</item>
+        <item>Georgian</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Gujarati</item>
+        <item>Haitian Creole</item>
+        <item>Hill Mari</item>
+        <item>Hebrew</item>
+        <item>Hindi</item>
+        <item>Hungarian</item>
+        <item>Icelandic</item>
+        <item>Indonesian</item>
+        <item>Irish</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Javanese</item>
+        <item>Kannada</item>
+        <item>Kazakh</item>
+        <item>Khmer</item>
+        <item>Korean</item>
+        <item>Kyrgyz</item>
+        <item>Laotian</item>
+        <item>Latin</item>
+        <item>Latvian</item>
+        <item>Lithuanian</item>
+        <item>Luxembourgish</item>
+        <item>Macedonian</item>
+        <item>Malagasy</item>
+        <item>Malay</item>
+        <item>Malayalam</item>
+        <item>Maltese</item>
+        <item>Maori</item>
+        <item>Marathi</item>
+        <item>Mongolian</item>
+        <item>Mari</item>
+        <item>Nepali</item>
+        <item>Norwegian</item>
+        <item>Persian</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Papiamento</item>
+        <item>Punjabi</item>
+        <item>Romanian</item>
+        <item>Russian</item>
+        <item>Sinhala</item>
+        <item>Slovakian</item>
+        <item>Slovenian</item>
+        <item>Spanish</item>
+        <item>Scottish</item>
+        <item>Serbian</item>
+        <item>Sundanese</item>
+        <item>Swahili</item>
+        <item>Swedish</item>
+        <item>Tajik</item>
+        <item>Tamil</item>
+        <item>Telugu</item>
+        <item>Thai</item>
+        <item>Tagalog</item>
+        <item>Turkish</item>
+        <item>Tatar</item>
+        <item>Ukrainian</item>
+        <item>Urdu</item>
+        <item>Uzbek</item>
+        <item>Udmurt</item>
+        <item>Vietnamese</item>
+        <item>Welsh</item>
+        <item>Xhosa</item>
+        <item>Yiddish</item>
+    </string-array>
+    <string-array name="lengths">
+        <item>μm</item>
+        <item>mm</item>
+        <item>cm</item>
+        <item>dm</item>
+        <item>m</item>
+        <item>inch</item>
+        <item>ft</item>
+        <item>yd</item>
+        <item>mile</item>
+        <item>km</item>
+        <item>NM</item>
+    </string-array>
+    <string-array name="areas">
+        <item>mm^2</item>
+        <item>cm^2</item>
+        <item>dm^2</item>
+        <item>m^2</item>
+        <item>in^2</item>
+        <item>ft^2</item>
+        <item>yd^2</item>
+        <item>ha</item>
+        <item>km^2</item>
+        <item>acre</item>
+        <item>mile^2</item>
+    </string-array>
+    <string-array name="weights">
+        <item>μg</item>
+        <item>mg</item>
+        <item>g</item>
+        <item>kg</item>
+        <item>lb(pound)</item>
+        <item>oz</item>
+        <item>oz t</item>
+        <item>grain</item>
+        <item>tonne</item>
+        <item>ton (UK)</item>
+        <item>ton (US)</item>
+        <item>stone (UK)</item>
+        <item>cwt</item>
+        <item>carat</item>
+    </string-array>
+    <string-array name="volumes">
+        <item>ml(cc)</item>
+        <item>cl</item>
+        <item>dl</item>
+        <item>L(litre)</item>
+        <item>mm^3</item>
+        <item>cm^3</item>
+        <item>dm^3</item>
+        <item>m^3</item>
+        <item>ft^3</item>
+        <item>yd^3</item>
+        <item>gal(UK)</item>
+        <item>gal(US)</item>
+        <item>in^3</item>
+        <item>pt(UK)</item>
+        <item>fl oz(US)</item>
+    </string-array>
+    <string-array name="currencies">
+        <item>Bangladeshi Taka</item>
+        <item>United States Dollar</item>
+        <item>Euro</item>
+        <item>Japanese Yen</item>
+        <item>Pound Sterling</item>
+        <item>Swiss Franc</item>
+        <item>Australian Dollar</item>
+        <item>Canadian Dollar</item>
+        <item>Indian Rupee</item>
+        <item>South Korean Won</item>
+        <item>Chinese Yuan</item>
+        <item>Thai Baht</item>
+        <item>Indonesian Rupiah</item>
+        <item>Malaysian Ringit</item>
+        <item>Philipine Peso</item>
+        <item>Vietnamese Dong</item>
+        <item>Pakistani Rupee</item>
+        <item>Nepalese Rupee</item>
+        <item>Mynmar Kyat</item>
+        <item>Srilankan Rupee</item>
+        <item>Maldivian Rufiyaa</item>
+        <item>Hongkong Dollar</item>
+        <item>Saudi Riyal</item>
+    </string-array>
+    <string-array name="temps">
+        <item>°C</item>
+        <item>°F</item>
+        <item>K</item>
+        <item>°R</item>
+        <item>°Ré</item>
+    </string-array>
+    <string-array name="times">
+        <item>ms</item>
+        <item>sec</item>
+        <item>min</item>
+        <item>hour</item>
+        <item>day</item>
+        <item>week</item>
+        <item>month</item>
+        <item>year</item>
+    </string-array>
+    <string-array name="speeds">
+        <item>m/s</item>
+        <item>ft/s</item>
+        <item>km/s</item>
+        <item>m/min</item>
+        <item>ft/min</item>
+        <item>km/min</item>
+        <item>km/h</item>
+        <item>mi/h(mph)</item>
+        <item>knot</item>
+        <item>mach</item>
+    </string-array>
+    <string-array name="pressures">
+        <item>atm</item>
+        <item>Pa</item>
+        <item>bar</item>
+        <item>psf(lbf/ft^2)</item>
+        <item>ksi</item>
+        <item>kgf/m^2</item>
+        <item>mmHg</item>
+        <item>mmH2O</item>
+        <item>Torr</item>
+    </string-array>
+    <string-array name="concentrations">
+        <item>%</item>
+        <item>μg/L</item>
+        <item>mg/L</item>
+        <item>g/L</item>
+        <item>ppm</item>
+        <item>ppb</item>
+    </string-array>
+    <string-array name="viscositys">
+        <item>cP</item>
+        <item>P(g/cm.s)</item>
+        <item>dyn.s/cm^2</item>
+        <item>kg/m.s</item>
+        <item>Pa.s(N.s/m^2)</item>
+        <item>mPa.s</item>
+        <item>lb/ft.s</item>
+    </string-array>
+    <string-array name="torques">
+        <item>N.m</item>
+        <item>daN.m</item>
+        <item>kgf.m</item>
+        <item>ozf.in</item>
+        <item>lbf.ft</item>
+        <item>gf.cm</item>
+    </string-array>
+    <string-array name="fuels">
+        <item>km/l</item>
+        <item>mi/l</item>
+        <item>km/gal(US)</item>
+        <item>mi/gal(US)</item>
+        <item>mi/gal(UK)</item>
+        <item>l/100km</item>
+    </string-array>
+    <string-array name="Illuminances">
+        <item>lux</item>
+        <item>lumen/m^2</item>
+        <item>lumen/cm^2</item>
+        <item>lumen/ft^2</item>
+        <item>meter-candle</item>
+        <item>foot-candle</item>
+        <item>phot</item>
+        <item>μw/cm^2</item>
+    </string-array>
+    <string-array name="radiations">
+        <item>μSv</item>
+        <item>mSv(mGy)</item>
+        <item>Sv(Gy)</item>
+        <item>rem(rad)</item>
+        <item>CTDI</item>
+    </string-array>
+    <string-array name="bloodsugars">
+        <item>mg/dL</item>
+        <item>mmol/L</item>
+        <item>Hb-A1c%</item>
+        <item>mmol/mol</item>
+    </string-array>
+    <string name="developersinfo1">
+        Member-1: Miyad Bhuiyan\n\n
+        ID No:17.02.04.110\n\n
+        University: Ahsanullah University of\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tScience And Technology\n\n
+        Year: 2nd\n\n
+        Semester:2nd\n\n
+        Section:B\n\n
+        Email:miyadbhuiyan@gmail.com\n
+    </string>
+    <string name="developersinfo2">
+        Member-2: Shweta Bhattacharjee\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t Parna\n\n
+        ID No:17.02.04.111\n\n
+        University: Ahsanullah University of\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tScience And Technology\n\n
+        Year: 2nd\n\n
+        Semester:2nd\n\n
+        Section:B\n\n
+        Email:shwetaparna555@gmail.com\n
+    </string>
+    <string name="developersinfolandscape1">
+        Member-1: Miyad Bhuiyan\n\n
+        ID No:17.02.04.110\n\n
+        University: Ahsanullah University of Science And Technology\n\n
+        Year: 2nd\n\n
+        Semester:2nd\n\n
+        Section:B\n\n
+        Email:miyadbhuiyan@gmail.com\n
+    </string>
+    <string name="developersinfolandscape2">
+        Member-2: Shweta Bhattacharjee Parna\n\n
+        ID No:17.02.04.111\n\n
+        University: Ahsanullah University of Science And Technology\n\n
+        Year: 2nd\n\n
+        Semester:2nd\n\n
+        Section:B\n\n
+        Email:shwetaparna555@gmail.com\n
+    </string>
+    <string name="about">
+        “Master Transformation” is an app which is altogether calculator, translator, converter. One can easily calculate, translate, convert anything through a single app. People don’t need to install multiple apps to get these above tasks done as this app can do all of the three types of transformation. For the students, it will be more helpful as they can get their GPA (Grade Point Average) result by inputting their grades and credit. Moreover, there are also remaining two more sections translator, converter through which they can translate a language and convert from one unit to another. As this app can transform a value from one form to another, it has been named “Master Transformer”.\n\n
+        Features:\n\n
+•	Calculator: This section is divided into two more sections GPA (Grade Point Average) calculator, standard calculator. The GPA calculator takes grade and credit hour of a subjects as input and show the result. And the standard calculator is like the usual mobile calculators.\n\n
+•	Translator: This section translates a language to another. It works like yandex translate.\n\n
+•	Unit Converter: There will have sorted essential unit sets for one’s daily life into four categories such as basic, living, science, miscellaneous. Basic types are like area, volume etc. Living types are temperature, time, speed etc. And science category conversions are pressure, concentration, viscosity, torque etc.\n
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
